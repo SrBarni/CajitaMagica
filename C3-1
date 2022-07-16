@@ -1,0 +1,77 @@
+import numpy as np
+print(np.__version__)
+
+# def val_ingreso(inf,sup,error,que,type):
+#     n = type(input(que))
+#     while n < inf or n > sup:
+#         n = type(input(error))
+#     return n 
+
+# def prom(lista,n):
+#     sum = 0
+#     for nota in lista:
+#         sum += nota
+#     promt = prom/n
+#     return promt 
+
+# def meter(n,type,que):
+#     m = []
+#     c = 1
+#     if type == str:
+#         for i in range(n):
+#             m.append(type(input(f"ingrese {que} {c}: ")))
+#             c += 1
+#     if type == float:
+#         for i in range(n):
+#             mete = val_ingreso(1.0,7.0,"ingrese nota valida\n","ingrese nota: ",float)
+#             m.append(mete)
+#     np.array(m)
+#     return m
+
+# def promedio_ind(n,almns,prom):
+#     for i in range(n):
+#         print(f'{almns[i]} : {prom[i]}')
+
+# def prom_evs(n,notas,cual):
+#     x = []
+#     for i in range(n):
+#         x.append(notas[cual-1])
+#     promt = prom(x,n)
+#     print(f"promedio prueba {cual}: {promt}")
+
+# n = val_ingreso(0,50,"error ingrese una cantidad valida: ","¿cuantos alumnos?: ",int)
+
+# M_nom = meter(n,str,"nombre")
+# M_not1 = meter(n,float,"nota")
+# M_not2 = meter(n,float,"nota")
+# M_not3 = meter(n,float,"nota")
+
+# print(M_nom)
+# print(M_not1)
+# print(M_not2)
+# print(M_not3)
+
+# l_prom = []
+# l_prom.append(prom(M_not1,n))
+# l_prom.append(prom(M_not2,n))
+# l_prom.append(prom(M_not3,n))
+# promedio_ind(n,M_nom,l_prom)
+
+# n1 = []
+# n1.append(M_not1[0])
+# n1.append(M_not2[0])
+# n1.append(M_not3[0])
+
+# n2 = []
+# n2.append(M_not1[1])
+# n2.append(M_not2[1])
+# n2.append(M_not3[1])
+
+# n3 = []
+# n3.append(M_not1[2])
+# n3.append(M_not2[2])
+# n3.append(M_not3[2])
+
+# pn1 = prom_evs(n,n1,1)
+# pn2 = prom_evs(n,n2,2)
+# pn3 = prom_evs(n,n3,3)   
